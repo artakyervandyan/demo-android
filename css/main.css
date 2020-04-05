@@ -1,0 +1,145 @@
+.head {
+	width: 400px;
+	height: 180px;
+	background-color: #97ca3d;
+	display: inline-block;
+    border-radius: 300px 300px 0 0;
+} 
+
+.leftear {
+	width: 14px;
+	height: 100px;
+	background-color: #97ca3d;
+	display: inline-block;
+	border-radius: 25px;
+	position: relative;
+	bottom: 40px;
+	left: 90px;
+	transform: rotate(-30deg);
+}
+
+.rightear {
+	width: 14px;
+	height: 100px;
+	background-color: #97ca3d;
+	display: inline-block;
+	border-radius: 25px;
+	position: relative;
+	bottom: 40px;
+	left: 270px;
+	transform: rotate(30deg);
+}
+
+.android {
+	    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 351px;
+    height: 100px;
+}
+
+.leftaye {
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background-color: black;
+	display: inline-block;
+    border-radius: 50% 50% 50% 50%;
+    left: 90px;
+    bottom: 40px;
+}
+
+.rightaye {
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background-color: #fff;
+	display: inline-block;
+    border-radius: 50% 50% 50% 50%;
+    left: 210px;
+    bottom: 40px;
+
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.body {
+	width: 400px;
+	height: 350px;
+	position: relative;
+	background-color: #97ca3d;
+	margin-top: 20px;
+	border-radius: 0 0 15% 15%;
+}
+ 
+ .righthand {
+ 	width: 70px;
+ 	height: 250px;
+	position: relative;
+	background-color: #97ca3d;
+	left:345px;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+ }
+ .leftfoot {
+	width: 70px;
+ 	height: 250px;
+ 	position: relative;
+	background-color: #97ca3d;
+	position: relative;
+	display: inline-block;
+	left: 80px;
+	bottom: 100px;
+	border-radius: 25px 25px 25px 25px;
+
+ }
+
+ .rightfoot {
+	width: 70px;
+ 	height: 250px;
+ 	position: relative;
+	background-color: #97ca3d;
+	position: relative;
+	display: inline-block;
+	left: 180px;
+	bottom: 100px;
+	border-radius: 25px 25px 25px 25px;
+ }
+
+ .lefthand {
+ 	width: 70px;
+ 	height: 250px;
+	position: relative;
+	background-color: #97ca3d;
+	right: 90px;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	animation-name: example1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+	transform-origin: 40px 24px;
+
+
+ }
+
+
+@keyframes example {
+  from {background-color: #fff;}
+  to {background-color: yellow;}
+
+}
+
+
+@keyframes example1 {
+  0%  {transform: rotate(0deg);
+}
+  25%  {transform: rotate(130deg);
+}
+  50%  {transform: rotate(130deg);
+}
+  100% {transform: rotate(0deg);}
+}
+
